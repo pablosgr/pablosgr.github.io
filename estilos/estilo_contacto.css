@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/old-paper-texture-wallpapers_34279_2560x1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Monster Hunter', sans-serif;
+    color: #351206;
+    font-size: 60px;
+}
+
+h2{
+    font-family: 'Monster Hunter', sans-serif;
+    color: #351206;
+    font-size: 45px;
+}
+
+h2:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+div#pic{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 45px;
+}
+
+div#pic img{
+    width: 650px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.formulario form{
+    width: 85%;
+    max-width: 1300px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0em 1em 1em 1em;
+    background-color: rgb(252, 228, 197);
+    box-shadow: 0 0 10px rgba(116, 47, 47, 0.873);
+    overflow: hidden;
+}
+
+.formulario textarea{
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.formulario textarea:focus{
+    box-shadow: 0 0 10px rgb(195, 104, 76);
+}
+
+.email{
+    padding: 10px;
+}
+
+button{
+    font-family: inherit;
+    background-color: rgb(255, 249, 248);
+    border-radius: 5px;
+    border: 1px;
+    font-size: large;
+    display: block;
+    width: 50%;
+    margin: 10px auto 0px;
+    box-sizing: border-box;
+    padding: 5px 0px;
+    box-shadow: 0 0 5px rgb(90, 37, 19);
+}

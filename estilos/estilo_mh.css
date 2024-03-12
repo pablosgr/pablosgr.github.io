@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/old-paper-texture-wallpapers_34279_2560x1440.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+    position: absolute;
+}
+
+nav{
+    box-sizing: border-box;
+    background-color: #994D1C;
+    padding:30px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: #F5CCA0;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+a:hover{
+    color: #fdf6ed;
+    text-shadow: 2px 2px 6px #3e1507;
+}
+
+#logo20{
+    width: 80px;
+    position: absolute;
+    bottom: 10px;
+    right: 2%;
+}
+
+#first_div{
+    position: relative;
+    padding-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#mainlogo{
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+h1{
+    font-size: 75px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+h1, h2{
+    font-family: 'Monster Hunter', sans-serif;
+    color: #351206;
+    text-align: center;
+}
+
+#second_div{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#cover{
+    float: left;
+    margin-right: 40px;
+    width: 300px;
+}
+
+#cover:hover{
+    transform: scale(1.08);
+    transition: 0.4s;
+}
+
+.text_secondiv{
+    font-size: 21px;
+    text-align: left;
+}
+
+.title_izquierda{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.text_izquierda{
+    font-size: 25px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.title_derecha{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.text_derecha{
+    font-size: 25px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.monstruos_derecha{
+    float: right;
+    margin-left: 40px;
+    width: 800px;
+}
+
+.monstruos_izquierda{
+    float: left;
+    margin-right: 40px;
+    width: 800px;
+}
+
+.body_divs{
+    clear: both;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.body_divs p::first-letter{
+    font-weight: bolder;
+}
+
+.novedades_div{
+    clear: both;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.novedades_div img{
+    width: 700px;
+}
+
+.novedades_div p{
+    font-size: 23px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#poogie{
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+#felyne{
+    position: sticky;
+    top: 85px;
+    left: 25px;
+}
+
+#felyne img{
+    width: 110px;
+}
